@@ -29,14 +29,15 @@ if(!$session->isSignedIn()) {
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <!-- Icons -->
-    <link href="././assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
-    <link href="././assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <!--<link href="././assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">-->
+    <!--<link href="././assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">-->
 
     <!-- Argon CSS -->
-    <link type="text/css" href="././assets/css/argon.css" rel="stylesheet">
-    <link type="text/css" href="././assets/css/custom.css" rel="stylesheet">
+    <!--<link type="text/css" href="././assets/css/argon.css" rel="stylesheet">-->
+    <!--<link type="text/css" href="././assets/css/custom.css" rel="stylesheet">-->
 
     <!-- Bootstrap CSS -->
     <!-- <link rel="stylesheet" href="././css/bootstrap.css">-->
