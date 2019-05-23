@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: ronald
- * Date: 2018-12-18
- * Time: 00:29
- */
-
 
 
 class User extends Object_Helper

@@ -1,6 +1,6 @@
 
-<div class="modal fade" id="add-account" tabindex="-1" role="dialog" aria-labelledby="modal-add-account" aria-hidden="true">
-    <div class="modal-dialog modal- modal-dialog-centered modal-sm" role="document">
+<div class="modal fade add-account-modal-lg" id="add-account" tabindex="-1" role="dialog" aria-labelledby="modal-add-account" aria-hidden="true">
+    <div class="modal-dialog modal- modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <h3 class="modal-title" id="exampleModalLabel">Create New Account</h3>
@@ -10,7 +10,7 @@
             </div>
             <div class="modal-body p-0">
 
-                <div class="card bg-secondary shadow border-0">
+                <div class="card shadow border-0">
                     <div class="card-body px-lg-5 py-lg-5">
                         <!--                        <div class="text-center text-muted mb-4">
                                                     <h3>Create New Account</h3>

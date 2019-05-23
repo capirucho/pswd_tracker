@@ -14,8 +14,6 @@ if(!$session->isSignedIn()) {
 
 ?>
 
-    <!-- Sidenav -->
-    <?php include("templates/side_nav.php"); ?>
     <!-- Main content -->
     <div class="main-content">
         <!-- Top navbar -->

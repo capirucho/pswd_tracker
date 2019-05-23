@@ -38,16 +38,15 @@ $(document).ready(function() {
 
 
     //get account details
-
     $('.detailed-view').click(function () {
             let account_id = $(this).attr('data-account-id');
             $.ajax({
                 url: "./includes/get_account_details.php",
                 method: "post",
                 data: {account_id : account_id},
-                success: function (data) {
+                success: function (result) {
                     //$('.details').empty();
-                    $('.details').html(data);
+                    $('.details').html(result);
                 }
             });
     });

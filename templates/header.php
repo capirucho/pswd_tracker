@@ -31,6 +31,7 @@ if(!$session->isSignedIn()) {
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="././assets/css/custom.css">
     <!-- Icons -->
     <!--<link href="././assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">-->
     <!--<link href="././assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">-->

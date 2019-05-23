@@ -1,11 +1,11 @@
 <?php include("templates/header.php"); ?>
 <!-- Sidenav -->
-<?php include("templates/side_nav.php"); ?>
 
 <!-- Main content -->
 <div class="main-content">
     <!-- Top navbar -->
     <?php include("templates/top_nav.php"); ?>
+    <?php include("templates/title_and_search_bar.php"); ?>
     <!-- Header -->
     <div class="header bg-gradient-primary pb-8 pt-5 pt-md-8">
 
@@ -19,12 +19,11 @@
 
     </div>
     <!-- Page content -->
-    <div class="container-fluid mt--7">
+    <div class="container">
 
         <div class="row">
             <div class="col-md-12" style="position:relative;">
-                <div class="card text-white bg-dark mb-3" style="max-width: 60rem;">
-
+                <div class="card text-white bg-dark mb-3">
                     <div class="card-body">
                         <?php
                             if (isset($_GET['account_id']))
@@ -55,12 +54,10 @@
                                 }
                             }
                         ?>
-
-
                     </div>
-
-
-                    <!-- Footer -->
-                    <?php include("templates/footer.php"); ?>
                 </div>
             </div>
+        </div>
+        <!-- Footer -->
+        <?php include("templates/footer.php"); ?>
+    </div> <!-- end Main Content ->

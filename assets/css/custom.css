@@ -17,6 +17,12 @@
     hyphens: auto;
 
 }
+.content {
+    padding-top: 70px;
+}
+.add-account-btn {
+    margin-bottom: 20px;
+}
 
 .edit-account, .detailed-view {
     margin-left: 10px;
@@ -36,4 +42,17 @@
 
 .search-keyword {
     height: calc(1.75rem + 2px) ;
+}
+
+.search-box {
+    justify-content: flex-end;
+}
+ul.account-details {
+    border:1px solid #ccddcc;
+}
+
+@media only screen and (max-width: 1200px) {
+    .search-box {
+        justify-content: flex-start;
+    }
 }

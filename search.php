@@ -15,8 +15,6 @@ if(isset($_POST['search-for-account'])) {
 
 ?>
 
-<!-- Sidenav -->
-<?php include("templates/side_nav.php"); ?>
 
 <!-- Main content -->
 <div class="main-content">
